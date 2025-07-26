@@ -5,7 +5,7 @@ import (
 	"log"
 
 	"github.com/BurntSushi/toml"
-	"github.com/qeery8/server/cmd/api-server/internal/app/apiserver"
+	"github.com/qeery8/server/internal/app/apiserver"
 )
 
 var (
@@ -13,7 +13,7 @@ var (
 )
 
 func init() {
-	flag.StringVar(&configPath, "config-path", "cmd/api-server/configs/apiserver.toml", "path to config file")
+	flag.StringVar(&configPath, "config-path", "D:/RestApi/configs/apiserver.toml", "path to config file")
 }
 
 func main() {
